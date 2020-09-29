@@ -1,0 +1,144 @@
+.container {
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: all .3s;
+    font-family:"Montserrat", sans-serif;
+}
+
+.box-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-product {
+    padding: 5px;
+    margin: 15px;
+    width: 200px;
+    border: 3px solid #dee2e6;
+}
+.product{
+    height: 120px;
+    text-align: center;
+}
+.product img{
+    width: 120px;
+    text-align: 'center';
+}
+
+.button .btn-add {
+    background: #50d8af;
+    border: 2px solid #50d8af;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 2px;
+    margin: 10px;
+    color: #fff;
+}
+
+.title p{
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 40px;
+    color: #555;
+    font-weight: bold;
+    text-align: center;
+}
+.price .frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+
+.price .frac > span {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.price .frac span.bottom {
+    font-size: 12px;
+    text-align: left;
+}
+
+.price .frac span.symbol {
+    display: none;
+} 
+
+/**List selected products*/
+
+.box-cart {
+    position: relative;
+    background-color: #eaeaea;
+    padding: 5px;
+
+}
+
+.box-cart p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-cart .cart-items p {
+    font-size: 14px;
+}
+
+.box-cart .box-total p {
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Cart items*/
+.card-item {
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid #50d8af;
+    border-radius: 15px;
+}
+
+.card-item .image{
+    float: left;
+}
+.card-item .image img{
+    width: 60px;
+ }
+.card-item .title p{
+    margin-bottom: 2px;
+}
+
+.card-item .total{
+     text-align: center;
+     font-size: 18px;
+     font-weight: bold;
+     color: #555;
+ }
+
+.card-item .delete-icon{ 
+    position:relative; 
+    width:40px; 
+    height:40px; 
+    border-radius:50%;  
+    top: -40px;
+    left: 100%;
+    background: #50d8af;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-item .delete-icon p {
+    padding-top: 6px;
+    margin: 6px;
+    color: #fff;
+    font-weight: bolder;
+}
