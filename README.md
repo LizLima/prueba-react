@@ -5,5 +5,5 @@
 4.- Ejecutar npm run start <br/>
  <br/>
   <br/>
-![Image of test](https:.png)
+![Image of test](https://github.com/LizLima/prueba-react/blob/master/src/assets/images/test.png)
 
