@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
-import { Row, Col, ThemeProvider } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import Products from '../assets/products.json';
 import Product from '../component/Product';

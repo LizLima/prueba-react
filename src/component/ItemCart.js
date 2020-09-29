@@ -1,6 +1,4 @@
 import React, { Component }  from 'react';
-import { Form } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import NoImage from '../assets/images/noimage.jpg';
 
 export default class ItemCard extends Component {
